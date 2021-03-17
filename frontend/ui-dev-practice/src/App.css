@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  scroll-behavior: smooth;
+  background-color: #0a33fb;
+}
+.bckg {
+  min-height: 100vh;
+  background-color: #0a33fb;
+}
+
+svg {
+  fill: #040404;
+
+  margin-left: 94%;
+}
+
+.content-container {
+  width: 90vw;
+  margin: 100px auto;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+h1 {
+  color: #f447fb;
+
+  font-weight: 900;
+  line-height: 1.1;
+  font-size: 130px;
+  text-transform: capitalize;
+  width: 76%;
+}
+p {
+  color: #c2ccfe;
+  line-height: 2.5;
+  font-size: 20px;
+  width: 40%;
+  margin-top: 40px;
+}
+.btn {
+  background-color: #040404;
+  color: white;
+  border: none;
+
+  cursor: pointer;
+  padding: 20px 80px;
+  margin-top: 100px;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 14px;
+    line-height: 2.5;
+    width: 100%;
+  }
+  svg {
+    margin-left: 70%;
+  }
+}
